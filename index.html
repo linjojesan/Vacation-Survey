@@ -1,95 +1,126 @@
 <Doctype html>
-  <html>
+<html>
 
-    <head>
-      <link href="css/styles.css" rel="stylesheet" text="text/css">
-      <link href="css/bootstrap.css" rel="stylesheet" text="text/css">
-      <script src="js/jquery-3.1.1.js"></script>
-      <script src="js/script.js"></script>
-    </head>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" text="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" text="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/script.js"></script>
+  </head>
 
-    <body>
-      <h1>Vacation Destination</h1>
-      <br>
-      <p><strong>Find your perfect vacation destination by answering our survey questions</strong></p>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+
+
+        <h1>Vacation Destination</h1>
+        <br>
+        <p><strong>Find your perfect vacation destination by answering our survey questions</strong></p>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <ol>
+      <li><strong>What climate do you prefer</strong></li>
+    <br>
+    <div id="survey-says">
+      <div class="container">
+        <div class="radioclimate">
+          <label><input type="radio" name="climate" value="Hot" >Hot</label>
+        </div>
+        <div class="radioclimate">
+          <label><input type="radio" name="climate" value="Rainy">Rainy</label>
+        </div>
+        <div class="radioclimate">
+          <label><input type="radio" name="climate" value="Cold">Cold</label>
+        </div>
       <br>
       <br>
 
-      <ol>
-        <li><strong>What climate do you prefer</strong></li>
+      <li><strong>What kind of vacation are you looking for?</strong></li>
       <br>
-
-      <div class="radioclimate">
-        <label><input type="radio" name="hotradio" value="Hot" >Hot</label>
-      </div>
-      <div class="radioclimate">
-        <label><input type="radio" name="rainy" value="Rainy">Rainy</label>
-      </div>
-      <div class="radioclimate">
-        <label><input type="radio" name="cold" value="Cold">Cold</label>
-      </div>
-      <br>
-      <br>
-
-        <li><strong>What kind of vacation are you looking for?</strong></li>
-      <br>
-      <div class="radiokind">
-        <label><input type="radio" name="adventureradio" value="Adventure">Adventure</label>
-      </div>
-      <div class="radiokind">
-        <label><input type="radio" name="relaxradio" value="Relaxation">Relaxation</label>
-      </div>
-      <div class="radiokind">
-        <label><input type="radio" name="cultureradio" value="Culture">Culture</label>
-      </div>
+        <div class="radiokind">
+          <label><input type="radio" name="kind" value="Adventure">Adventure</label>
+        </div>
+        <div class="radiokind">
+          <label><input type="radio" name="kind" value="Relaxation">Relaxation</label>
+        </div>
+        <div class="radiokind">
+          <label><input type="radio" name="kind" value="Culture">Culture</label>
+        </div>
 
       <br>
       <br>
-        <li><strong>Where are you planning on staying?</strong></li>
+      <li><strong>Where are you planning on staying?</strong></li>
       <br>
-      <div class="radiostay">
-        <label><input type="radio" name="radioresort" value="Resort">Resort</label>
-      </div>
-      <div class="radiostay">
-        <label><input type="radio" name="radiohotel" value="Hotel">Hotel</label>
-      </div>
-      <div class="radiostay">
-        <label><input type="radio" name="radiohostel" value="Hostel">Hostel</label>
-      </div>
+        <div class="radiostay">
+          <label><input type="radio" name="stay" value="Resort">Resort</label>
+        </div>
+        <div class="radiostay">
+          <label><input type="radio" name="stay" value="Hotel">Hotel</label>
+        </div>
+        <div class="radiostay">
+          <label><input type="radio" name="stay" value="Hostel">Hostel</label>
+        </div>
       <br>
       <br>
-        <li><strong>How long do you plan on staying?</strong></li>
+      <li><strong>How long do you plan on staying?</strong></li>
       <br>
-      <div class="radiolength">
-        <label><input type="radio" name="radioless" value="Less">less than one week</label>
-      </div>
-      <div class="radiolength">
-        <label><input type="radio" name="radioweek" value="more">more than one week</label>
-      </div>
-      <div class="radiolength">
-        <label><input type="radio" name="radiomore" value="over">over a month</label>
-      </div>
+        <div class="radiolength">
+          <label><input type="radio" name="long" value="Less">less than one week</label>
+        </div>
+        <div class="radiolength">
+          <label><input type="radio" name="long" value="more">more than one week</label>
+        </div>
+        <div class="radiolength">
+          <label><input type="radio" name="long" value="over">over a month</label>
+        </div>
       <br>
       <br>
       <li><strong>What continent do you want to travel too?</strong></li>
     <br>
-    <div class="radiocontinent">
-      <label><input type="radio" name="radioNorth" value="North-America">North America</label>
+        <div class="radiocontinent">
+          <label><input type="radio" name="continent" value="North-America">North America</label>
+        </div>
+        <div class="radiocontinent">
+          <label><input type="radio" name="continent" value="South-America">South America</label>
+        </div>
+        <div class="radiocontinent">
+          <label><input type="radio" name="continent" value="Europe">Europe</label>
+        <div class="radiocontinent">
+          <label><input type="radio" name="continent" value="Asia">Asia</label>
+        </div>
+        <div class="radiocontinent">
+          <label><input type="radio" name="continent" value="Africa">Africa</label>
+        <div class="radiocontinent">
+          <label><input type="radio" name="continent" value="Australia">Australia</label>
+        </div>
+      </div>
     </div>
-    <div class="radiocontinent">
-      <label><input type="radio" name="radioSouth" value="South-America">South America</label>
-    </div>
-    <div class="radiocontinent">
-      <label><input type="radio" name="radioEurope" value="Europe">Europe</label>
-    <div class="radiocontinent">
-      <label><input type="radio" name="radioAsia" value="Asia">Asia</label>
-    </div>
-    <div class="radiocontinent">
-      <label><input type="radio" name="radioAfrica" value="Africa">Africa</label>
-    <div class="radiocontinent">
-      <label><input type="radio" name="radioAustrailia" value="Australia">Australia</label>
+    <br>
+    <br>
+    <button type="submit" class="btn btn-default">GO!</button>
+
+    <div class="destination">
+      <div class="container">
+        <h1>""</h1>
+      </div>
     </div>
 
+
+    <script>
+      $( "div.radioclimate" ).css( "border", "2px solid black" )
+        .css( "background", "cyan")
+      $("div.radiokind").css("border", "2px solid black")
+      $("div.radiostay").css("border", "2px solid black")
+        .css("background", "cyan")
+      $("div.radiolength").css("border", "2px solid black")
+      $("div.radiocontinent").css("border", "2px solid black")
+        .css("background", "cyan")
+
+    </script>
 
 
 
