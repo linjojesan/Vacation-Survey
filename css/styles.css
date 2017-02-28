@@ -1,6 +1,4 @@
-survey-says {
-  width: 200px;
-}
+
 
 h1 {
   text-align: center;
@@ -10,6 +8,6 @@ p {
   text-align: center;
 }
 
-.destination {
-  display: none;
+#destination1 {
+display: none;
 }

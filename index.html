@@ -11,43 +11,40 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-
-
         <h1>Vacation Destination</h1>
         <br>
         <p><strong>Find your perfect vacation destination by answering our survey questions</strong></p>
       </div>
     </div>
-
     <br>
     <br>
-
     <ol>
-      <li><strong>What climate do you prefer</strong></li>
     <br>
-    <div id="survey-says">
+    <form>
       <div class="container">
-        <div class="radioclimate">
+        <li><strong>What kind of climate do you prefer?</strong></li>
+        <br>
+        <br>
+        <div class="radio1">
           <label><input type="radio" name="climate" value="Hot" >Hot</label>
         </div>
-        <div class="radioclimate">
+        <div class="radio1">
           <label><input type="radio" name="climate" value="Rainy">Rainy</label>
         </div>
-        <div class="radioclimate">
+        <div class="radio1">
           <label><input type="radio" name="climate" value="Cold">Cold</label>
         </div>
       <br>
       <br>
-
       <li><strong>What kind of vacation are you looking for?</strong></li>
       <br>
-        <div class="radiokind">
+        <div class="radio">
           <label><input type="radio" name="kind" value="Adventure">Adventure</label>
         </div>
-        <div class="radiokind">
+        <div class="radio">
           <label><input type="radio" name="kind" value="Relaxation">Relaxation</label>
         </div>
-        <div class="radiokind">
+        <div class="radio">
           <label><input type="radio" name="kind" value="Culture">Culture</label>
         </div>
 
@@ -55,46 +52,46 @@
       <br>
       <li><strong>Where are you planning on staying?</strong></li>
       <br>
-        <div class="radiostay">
+        <div class="radio1">
           <label><input type="radio" name="stay" value="Resort">Resort</label>
         </div>
-        <div class="radiostay">
+        <div class="radio1">
           <label><input type="radio" name="stay" value="Hotel">Hotel</label>
         </div>
-        <div class="radiostay">
+        <div class="radio1">
           <label><input type="radio" name="stay" value="Hostel">Hostel</label>
         </div>
       <br>
       <br>
       <li><strong>How long do you plan on staying?</strong></li>
       <br>
-        <div class="radiolength">
+        <div class="radio">
           <label><input type="radio" name="long" value="Less">less than one week</label>
         </div>
-        <div class="radiolength">
+        <div class="radio">
           <label><input type="radio" name="long" value="more">more than one week</label>
         </div>
-        <div class="radiolength">
+        <div class="radio">
           <label><input type="radio" name="long" value="over">over a month</label>
         </div>
       <br>
       <br>
       <li><strong>What continent do you want to travel too?</strong></li>
     <br>
-        <div class="radiocontinent">
+        <div class="radio1">
           <label><input type="radio" name="continent" value="North-America">North America</label>
         </div>
-        <div class="radiocontinent">
+        <div class="radio1">
           <label><input type="radio" name="continent" value="South-America">South America</label>
         </div>
-        <div class="radiocontinent">
+        <div class="radio1">
           <label><input type="radio" name="continent" value="Europe">Europe</label>
-        <div class="radiocontinent">
+        <div class="radio1">
           <label><input type="radio" name="continent" value="Asia">Asia</label>
         </div>
-        <div class="radiocontinent">
+        <div class="radio1">
           <label><input type="radio" name="continent" value="Africa">Africa</label>
-        <div class="radiocontinent">
+        <div class="radio1">
           <label><input type="radio" name="continent" value="Australia">Australia</label>
         </div>
       </div>
@@ -102,23 +99,20 @@
     <br>
     <br>
     <button type="submit" class="btn btn-default">GO!</button>
-
-    <div class="destination">
+  </form>
+    <div id="destination1">
       <div class="container">
-        <h1>""</h1>
+        <h1>"Thailand"</h1>
       </div>
     </div>
+  </div>
 
 
     <script>
-      $( "div.radioclimate" ).css( "border", "2px solid black" )
+      $( "div.radio1" ).css( "border", "2px solid black" )
         .css( "background", "cyan")
-      $("div.radiokind").css("border", "2px solid black")
-      $("div.radiostay").css("border", "2px solid black")
-        .css("background", "cyan")
-      $("div.radiolength").css("border", "2px solid black")
-      $("div.radiocontinent").css("border", "2px solid black")
-        .css("background", "cyan")
+      $("div.radio").css("border", "2px solid black")
+
 
     </script>
 

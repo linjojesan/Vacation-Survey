@@ -1,4 +1,6 @@
-$(document).ready(function() {
-  alert("welcome to our vaction survey");
-  var destianation = $("input:radio[name=climate]:checked").val();
-});
+
+
+  var destination = document.getElementsByClassName("radio1");
+    if ("destination.checked"); {
+      alert("radio1 selected"); }
+      event.preventDefault();
