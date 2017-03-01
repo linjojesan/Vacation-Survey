@@ -8,7 +8,11 @@ p {
   text-align: center;
 }
 
-#j1 {
+#surveysays {
+  display: none;
+}
+
+/*#j1 {
 display: none;
 }
 #j2 {
@@ -22,4 +26,4 @@ display: none;
 }
 #j5 {
 display: none;
-}
+}*/
