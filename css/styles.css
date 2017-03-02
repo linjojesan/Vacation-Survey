@@ -1,5 +1,4 @@
 
-
 h1 {
   text-align: center;
 }
@@ -8,11 +7,11 @@ p {
   text-align: center;
 }
 
-#surveysays {
+.destination {
   display: none;
 }
 
-/*#j1 {
+/*#bangkok {
 display: none;
 }
 #j2 {
@@ -26,4 +25,5 @@ display: none;
 }
 #j5 {
 display: none;
-}*/
+}
+*/
