@@ -33,30 +33,27 @@ $(document).ready(function() {
 
         }
 
-        // if (continent <= 1) {
-        //   $("#seattle").show();
-        // }
-        //   else if(continent === 2) {
-        //   ("#costa-rica").show();
-        // }
-        //   else if  (continent <= 3) {
-        //   $("#rome").show();
-        //   $("#paris").show();
-        //   }
-        //   else   if (continent <= 4) {
-        //     $("#bangkok").show();
-        //         }
-        //   else if  (continent === 0) {
-        //     return alert(" You can't go to Africa right now");
-        //
-        //   }
-          // else (continent === 5) {
-          //   ("#sydney").show();
-          // }
+        if (continent <= 1) {
+          $("#seattle").show();
+        }
+          else if(continent === 2) {
+          ("#costa-rica").show();
+        }
+          else if  (continent <= 3) {
+          $("#rome").show();
+          $("#paris").show();
+          }
+          else   if (continent <= 4) {
+            $("#bangkok").show();
+                }
+        
+          else if (continent === 5) {
+            ("#sydney").show();
+          }
 
             event.preventDefault();
 
-          }
+          });
         });
 
 
